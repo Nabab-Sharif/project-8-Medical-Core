@@ -294,3 +294,22 @@ nav .d-flex {
 
 
 /* activity section style end here */
+
+
+
+
+/* experts section style start here */
+
+.experts_part .row {
+  flex-direction: row-reverse;
+}
+
+.experts_part .experts_part_text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+/* experts section style end here */
