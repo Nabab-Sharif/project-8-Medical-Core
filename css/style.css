@@ -1,4 +1,5 @@
-/* common css style start here */
+/*...................common css style start here...................*/
+
 * {
   margin: 0;
   padding: 0;
@@ -32,12 +33,13 @@ li,
   margin: 0;
 }
 
-
-/* common css style end here */
-
+/*...................common css style end here...................*/
 
 
-/* nav section style start here */
+
+
+
+/*...................nav section style start here...................*/
 nav {
   position: absolute !important;
   width: 100%;
@@ -107,13 +109,14 @@ nav .d-flex {
   column-gap: 45px;
 }
 
-/* nav section style end here */
+/*...................nav section style end here...................*/
 
 
 
 
 
-/* banner section style start here */
+
+/*...................banner section style start here...................*/
 
 #banner_part {
   position: relative;
@@ -187,11 +190,14 @@ nav .d-flex {
   width: 100%;
 }
 
-/* banner section style end here */
+/*...................banner section style end here...................*/
 
 
 
-/* activity section style start here */
+
+
+/*...................activity section style start here...................*/
+
 #activity_part {
   padding: 160px 0;
 }
@@ -290,15 +296,14 @@ nav .d-flex {
 }
 
 
+/*................... activity section style end here...................*/
 
 
 
-/* activity section style end here */
 
 
 
-
-/* experts section style start here */
+/*................... experts section style start here...................*/
 
 .experts_part .row {
   flex-direction: row-reverse;
@@ -312,4 +317,289 @@ nav .d-flex {
 
 }
 
-/* experts section style end here */
+/*................... experts section style end here...................*/
+
+
+
+
+
+
+/*................... product card section style start here...................*/
+#product_part {
+  padding-bottom: 200px;
+}
+
+#product_part .title h5 {
+  color: #1BA0AB;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+
+#product_part .title h4 {
+  color: #252B42;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  margin: 10px 0;
+}
+
+#product_part .title p {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  width: 469px;
+  margin-bottom: 96px;
+}
+
+#product_part .container .main_cards .cards {
+  display: flex;
+}
+
+
+#product_part .product_cover {
+  position: relative;
+
+}
+
+#product_part .product_cover img {
+  width: 209px;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+
+
+#product_part .product_cover .cover_title {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  padding: 5px 20px;
+  border-radius: 3px;
+  background: #E74040;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+
+#product_part .product_cover .cover_icon {
+  display: flex;
+  column-gap: 10px;
+  position: absolute;
+  left: 35px;
+  bottom: 24px;
+}
+
+
+#product_part .product_cover .cover_icon i {
+  font-size: 17px;
+  background: #FFF;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#product_part .product_content {
+  padding: 25px 25px 35px 25px;
+  width: 292px;
+  height: 100%;
+
+}
+
+
+#product_part .product_content .product_category {
+  display: flex;
+  justify-content: space-between;
+}
+
+#product_part .product_content .product_category h5 {
+  color: #1BA0AB;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+#product_part .product_content .product_category .product_star {
+  border-radius: 20px;
+  background: #26335D;
+  padding: 5px;
+}
+
+
+
+#product_part .product_content .product_category .product_star .star {
+  font-size: 16px;
+  color: #FFCE31;
+}
+
+#product_part .product_content .product_category .product_star .rate {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  margin-left: 5px;
+}
+
+
+#product_part .product_content h4 {
+  color: #252B42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin: 10px 0;
+}
+
+
+#product_part .product_content p {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  width: 242px;
+}
+
+
+#product_part .product_content .sales {
+  margin: 10px 0;
+}
+
+#product_part .product_content .sales .ic {
+  font-size: 16px;
+  color: #737373;
+}
+
+
+#product_part .product_content .sales .sale {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin-left: 10px;
+}
+
+
+
+
+#product_part .product_content .price .one_price {
+  color: #BDBDBD;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+
+#product_part .product_content .price .two_price {
+  color: #F69B25;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin-left: 5px;
+}
+
+
+
+
+
+#product_part .product_content .calendar {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 25px;
+}
+
+
+#product_part .product_content .calendar span {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+
+#product_part .product_content .calendar .clk {
+  font-size: 16px;
+  color: #1BA0AB;
+}
+
+#product_part .product_content .calendar .bar {
+  font-size: 16px;
+  color: #E77C40;
+}
+
+#product_part .product_content .calendar .area {
+  font-size: 16px;
+  color: #F69B25;
+}
+
+
+
+#product_part .product_content .p_btn a {
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  padding: 10px 20px;
+  background-color: #1BA0AB;
+  border-radius: 37px;
+  border: 1px solid #1BA0AB;
+}
+
+#product_part .product_content .p_btn a:hover {
+  background-color: rgba(27, 159, 171, 0);
+  color: #1BA0AB;
+}
+
+
+#product_part .product_content .p_btn a i {
+  margin-left: 10px;
+}
+
+
+/*................... product card section style end here...................*/
