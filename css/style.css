@@ -1,4 +1,4 @@
-/*...................common css style start here...................*/
+/*...................Start common css...................*/
 
 * {
   margin: 0;
@@ -33,13 +33,46 @@ li,
   margin: 0;
 }
 
-/*...................common css style end here...................*/
+
+.title h5 {
+  color: #1BA0AB;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.title h4 {
+  color: #252B42;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  margin: 10px 0;
+}
+
+.title p {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  width: 469px;
+  margin-bottom: 96px;
+}
+
+/*...................End common css...................*/
 
 
 
 
-
-/*...................nav section style start here...................*/
+/*...................Start nav section...................*/
 nav {
   position: absolute !important;
   width: 100%;
@@ -109,14 +142,15 @@ nav .d-flex {
   column-gap: 45px;
 }
 
-/*...................nav section style end here...................*/
+/*...................End nav section...................*/
 
 
 
 
 
 
-/*...................banner section style start here...................*/
+
+/*...................Start banner section...................*/
 
 #banner_part {
   position: relative;
@@ -190,13 +224,13 @@ nav .d-flex {
   width: 100%;
 }
 
-/*...................banner section style end here...................*/
+/*...................End banner section...................*/
 
 
 
 
 
-/*...................activity section style start here...................*/
+/*...................Start activity section...................*/
 
 #activity_part {
   padding: 160px 0;
@@ -295,16 +329,14 @@ nav .d-flex {
   margin-top: 20px;
 }
 
-
-/*................... activity section style end here...................*/
-
+/*...................End activity section...................*/
 
 
 
 
 
-/*................... experts section style start here...................*/
 
+/*...................Start expert section...................*/
 .experts_part .row {
   flex-direction: row-reverse;
 }
@@ -317,51 +349,24 @@ nav .d-flex {
 
 }
 
-/*................... experts section style end here...................*/
+/*...................End expert section...................*/
 
 
 
 
 
+/*...................Start product slide section...................*/
 
-/*................... product card section style start here...................*/
 #product_part {
   padding-bottom: 200px;
 }
 
-#product_part .title h5 {
-  color: #1BA0AB;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.2px;
-}
-
-
-#product_part .title h4 {
-  color: #252B42;
-  font-family: Montserrat;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 50px;
-  letter-spacing: 0.2px;
-  margin: 10px 0;
-}
 
 #product_part .title p {
-  color: #737373;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0.2px;
   width: 469px;
-  margin-bottom: 96px;
 }
+
+
 
 #product_part .container .main_cards .cards {
   display: flex;
@@ -601,5 +606,77 @@ nav .d-flex {
   margin-left: 10px;
 }
 
+/*...................End product slide section...................*/
 
-/*................... product card section style end here...................*/
+
+
+
+
+
+/*...................Start testimonial section...................*/
+#testimonial_part {
+  padding-bottom: 208px;
+}
+
+#testimonial_part .person {
+  text-align: center;
+}
+
+
+#testimonial_part .person img {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
+#testimonial_part .person p {
+  width: 320px;
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin: 30px auto 15px;
+}
+
+#testimonial_part .person .icon i {
+  font-size: 22px;
+  color: #FFCE31;
+}
+
+
+
+#testimonial_part .person h5 {
+  color: #252B42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin: 15px 0 5px;
+}
+
+
+
+#testimonial_part .person h6 {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+
+
+
+
+
+
+
+
+/*...................End testimonial section.....................*/
