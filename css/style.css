@@ -672,11 +672,56 @@ nav .d-flex {
 }
 
 
-
-
-
-
-
-
-
 /*...................End testimonial section.....................*/
+
+
+
+
+/*...................Start team section.........................*/
+#team_part {
+  padding-bottom: 112px;
+}
+#team_part .box img{
+  width: 100%;
+}
+
+#team_part .box {
+  text-align: center;
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+ 
+}
+#team_part .text{
+  padding: 30px;
+}
+#team_part .text .text_tle {
+  color: #252B42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin-top: 30px;
+}
+
+#team_part .text h6 {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  margin: 10px 0;
+}
+
+#team_part .icon i {
+  font-size: 24px;
+  color: #1BA0AB;
+  margin-right: 20px;
+}
+
+
+/*...................End team section...........................*/
