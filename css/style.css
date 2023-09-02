@@ -681,7 +681,8 @@ nav .d-flex {
 #team_part {
   padding-bottom: 112px;
 }
-#team_part .box img{
+
+#team_part .box img {
   width: 100%;
 }
 
@@ -690,11 +691,13 @@ nav .d-flex {
   border-radius: 20px;
   background: #FFF;
   box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
- 
+
 }
-#team_part .text{
+
+#team_part .text {
   padding: 30px;
 }
+
 #team_part .text .text_tle {
   color: #252B42;
   font-family: Montserrat;
@@ -725,3 +728,103 @@ nav .d-flex {
 
 
 /*...................End team section...........................*/
+
+
+
+/*...................Start JOIN US section...........................*/
+#joinUs_part {
+  padding: 160px 0;
+  background-color: #FFF5F0;
+}
+
+#joinUs_part .container {
+  text-align: center;
+}
+
+#joinUs_part .text h6 {
+  color: #1BA0AB;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+
+
+#joinUs_part .text h4 {
+  color: #252B42;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+}
+
+
+
+
+#joinUs_part .text p {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  width: 469px;
+  margin: 0 auto;
+
+}
+
+
+#joinUs_part .form form input {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  border: 0;
+  display: inline-block;
+  margin-top: 80px;
+  width: 688px;
+  border-radius: 5px;
+  border: 1px solid #E6E6E6;
+  background: #F9F9F9;
+  padding: 15px 591px 15px 20px;
+}
+
+#joinUs_part .form {
+  position: relative;
+}
+
+
+#joinUs_part .form form button {
+  padding: 15px 22.5px;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #E6E6E6;
+  background: #1BA0AB;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  position: absolute;
+  top: 80px;
+  right: 20%;
+  transform: translateX(20%);
+
+
+
+}
+
+
+
+/*...................End JOIN US section.............................*/
