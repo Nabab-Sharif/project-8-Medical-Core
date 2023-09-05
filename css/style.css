@@ -826,5 +826,91 @@ nav .d-flex {
 }
 
 
-
 /*...................End JOIN US section.............................*/
+
+
+
+
+
+/*...................Start Footer section.............................*/
+
+footer {
+  padding-top: 50px;
+}
+
+footer .container h2 {
+  color: #252B42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin-bottom: 20px;
+}
+
+
+footer .container ul {
+  list-style-type: none;
+}
+
+footer .container li {
+  margin-bottom: 10px;
+}
+
+footer .container li a {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+footer .container li a i {
+  font-size: 24px;
+  color: #1BA0AB;
+  margin-right: 20px;
+  line-height: 35px;
+
+}
+
+
+footer .container ul .location {
+  width: 425px;
+}
+
+
+
+
+footer .container .copy {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 25px 0;
+
+}
+
+footer .container .copy p {
+  color: #737373;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+
+footer .container .copy .icon {
+  display: flex;
+  column-gap: 20px;
+}
+
+footer .container .copy .icon i {
+  color: #1BA0AB;
+  font-size: 24px;
+}
+
+/*...................End Footer section...............................*/
